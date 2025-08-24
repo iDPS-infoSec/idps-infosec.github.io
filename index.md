@@ -3,16 +3,15 @@ layout: home
 title: Home
 ---
 
-# {{ site.title }}
+# iDPS InfoSec
 
-<p>{{ site.description }}</p>
+Exploring offensive security, penetration testing, and red teaming.  
 
 ---
 
 ## Welcome
 
-Welcome to my InfoSec blog! Here I document my **red team learnings, penetration testing experiments, and security insights**.  
-Feel free to browse the posts, learn with me, and explore the content.
+This is where I share my journey in InfoSec — from penetration testing techniques and red team experiments to lessons learned in the field.  
 
 ---
 
