@@ -1,29 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-25T11:11:27-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">iDPS InfoSec</title><subtitle>Offensive security, penetration testing, and red team experiments.</subtitle><entry><title type="html">Welcome to My Blog!</title><link href="http://localhost:4000/jekyll/update/2025/08/24/introBlog.html" rel="alternate" type="text/html" title="Welcome to My Blog!" /><published>2025-08-24T22:01:55-06:00</published><updated>2025-08-24T22:01:55-06:00</updated><id>http://localhost:4000/jekyll/update/2025/08/24/introBlog</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/08/24/introBlog.html"><![CDATA[<p>The goal of this blog is to document my learning as I explore different offensive security topics, primarily <strong>red teaming</strong> and <strong>purple teaming</strong>. I have a solid background in penetration testing and am looking to transition into the red team field.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-25T11:39:10-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">iDPS InfoSec</title><entry><title type="html">Welcome to My Blog!</title><link href="http://localhost:4000/jekyll/update/2025/08/25/introBlog.html" rel="alternate" type="text/html" title="Welcome to My Blog!" /><published>2025-08-25T09:15:00-06:00</published><updated>2025-08-25T09:15:00-06:00</updated><id>http://localhost:4000/jekyll/update/2025/08/25/introBlog</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2025/08/25/introBlog.html"><![CDATA[<div style="margin-bottom: 2rem;">
+  <p style="font-size: 1.1rem; line-height: 1.6;">
+    The goal of this blog is to document my learning as I explore different offensive security topics, primarily <strong>red teaming</strong> and <strong>purple teaming</strong>. I have a solid background in penetration testing and am looking to transition into the red team field.
+  </p>
+  <p style="font-size: 1.1rem; line-height: 1.6;">
+    Currently, I have taken a few red team courses and will continue learning and applying what I’ve learned.
+  </p>
+</div>
 
-<p>Currently, I have taken a few red team courses and will continue learning and applying what I’ve learned.</p>
+<hr style="margin: 2rem 0;" />
 
-<h2 id="current-study-plan">Current Study Plan</h2>
+<h2>Current Study Plan</h2>
 
-<ol>
-  <li><strong>Initial Access</strong>
-    <ul>
-      <li>Review <strong>Red Team Initial Access</strong> with Michael Allen. I took this training at WWHF Mile High earlier in the year and will go through the recordings and labs again.</li>
-      <li>Review <strong>Arsenal Assembly: Creating Red Team Infrastructure</strong> from SAINTCON to revisit setting up EC2 redirectors and general infrastructure.</li>
-    </ul>
-  </li>
-  <li><strong>Malware Development and EDR Evasion</strong>
-    <ul>
-      <li>Finish <strong>Offensive Security Experienced Penetration Tester (OSEP/PEN-300)</strong> to strengthen EDR evasion skills and reinforce Active Directory attacks.</li>
-      <li>Continue working through <strong>MalDev Academy</strong>, getting hands-on practice writing exploit code to bypass detection.</li>
-      <li>Complete <strong>Certified Red Team Operator (CRTO)</strong> for training material and Cobalt Strike practice.</li>
-    </ul>
-  </li>
-  <li><strong>C2 Infrastructure</strong>
-    <ul>
-      <li>Hands-on practice with <strong>Sliver</strong> and <strong>Cobalt Strike</strong> frameworks. Build a basic C2 server to understand how they work.</li>
-      <li>Create <strong>Beacon Object Files (BOFs)</strong> and practice OPSEC to blend into environments.</li>
-    </ul>
-  </li>
-</ol>
+<h3>1. Initial Access</h3>
+<ul style="line-height: 1.6;">
+  <li>Review <strong>Red Team Initial Access</strong> with Michael Allen. I took this training at WWHF Mile High earlier in the year and will revisit the recordings and labs.</li>
+  <li>Review <strong>Arsenal Assembly: Creating Red Team Infrastructure</strong> from SAINTCON to revisit setting up EC2 redirectors and general infrastructure.</li>
+</ul>
 
-<p>A lot of the learning will overlap, and the plan may change as I discover new material. I will emphasize hands-on practice and set up <strong>practice environments in my home lab Proxmox server</strong>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[The goal of this blog is to document my learning as I explore different offensive security topics, primarily red teaming and purple teaming. I have a solid background in penetration testing and am looking to transition into the red team field.]]></summary></entry></feed>
+<h3>2. Malware Development and EDR Evasion</h3>
+<ul style="line-height: 1.6;">
+  <li>Finish <strong>OSEP/PEN-300</strong> to strengthen EDR evasion skills and reinforce Active Directory attacks.</li>
+  <li>Continue working through <strong>MalDev Academy</strong>, getting hands-on practice writing exploit code to bypass detection.</li>
+  <li>Complete <strong>Certified Red Team Operator (CRTO)</strong> for all training material and Cobalt Strike practice.</li>
+</ul>
+
+<h3>3. C2 Infrastructure</h3>
+<ul style="line-height: 1.6;">
+  <li>Hands-on practice with <strong>Sliver</strong> and <strong>Cobalt Strike</strong> frameworks. Build a basic C2 server to understand how they work.</li>
+  <li>Create <strong>Beacon Object Files (BOFs)</strong> and practice proper OPSEC to blend into environments.</li>
+</ul>
+
+<div style="margin-top: 2rem; line-height: 1.6;">
+  <p>A lot of the learning will overlap, and the plan may change as I discover new material. I will emphasize <strong>hands-on practice</strong> and set up <strong>practice environments in my home lab Proxmox server</strong>.</p>
+</div>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[The goal of this blog is to document my learning as I explore different offensive security topics, primarily red teaming and purple teaming. I have a solid background in penetration testing and am looking to transition into the red team field. Currently, I have taken a few red team courses and will continue learning and applying what I’ve learned.]]></summary></entry></feed>
