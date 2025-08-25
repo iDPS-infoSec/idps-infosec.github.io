@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "Welcome to My Blog!"
-date: 2025-08-25 22:01:55 -0600
-categories: first-blog
-tags: [intro, study-plan, red-team]
+title:  "Welcome to My Blog!"
+date:   2025-08-24 22:01:55 -0600
+categories: jekyll update
 ---
-
 The goal of this blog is to document my learning as I explore different offensive security topics, primarily **red teaming** and **purple teaming**. I have a solid background in penetration testing and am looking to transition into the red team field.
 
 Currently, I have taken a few red team courses and will continue learning and applying what I’ve learned.
@@ -26,3 +24,4 @@ Currently, I have taken a few red team courses and will continue learning and ap
    - Create **Beacon Object Files (BOFs)** and practice OPSEC to blend into environments.
 
 A lot of the learning will overlap, and the plan may change as I discover new material. I will emphasize hands-on practice and set up **practice environments in my home lab Proxmox server**.
+
